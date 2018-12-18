@@ -30,6 +30,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 uint256 hashGenesisBlock("0x0a59605118489aa9cde58e64210d3d56e246758fbabcd1482e54bf4032545221");
+//uint256 hashGenesisBlock(" ");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // StableCoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
